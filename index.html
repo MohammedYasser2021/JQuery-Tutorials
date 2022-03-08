@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+                <!-- start navbar-->
+                <ul class="nav">
+                    <li><a data-scroll = "home">Home</a></li>
+                    <li><a data-scroll = "about">About</a></li>
+                    <li><a data-scroll = "services">Services</a></li>
+                    <li><a data-scroll = "solutions">Solutions</a></li>
+                    <li><a data-scroll = "contact">Contact Us</a></li>
+                    <li><a data-scroll = "blog">Blog</a></li>
+                </ul>
+                <!-- end navbar -->
+                <div class="fixed-menu">
+                    <i class="fa fa-cog"></i>
+                    <h3>change colors</h3>
+                    <ul class="change-colors">
+                        <li data-color = "royalblue"></li>
+                        <li data-color = "crimson"></li>
+                        <li data-color = "sky"></li>
+                        <li data-color = "green"></li>
+                    </ul>
+                    <h3>change fonts</h3>
+                    testing fonts
+                </div>
+                <!-- start sections -->
+                <div id ="home" class="sec">
+                    <h2 class="skin-color">Home</h2>
+                    <div class="popups">
+                    <button class="show-pop skin-background" data-popup = ".firstpopup">show first popup</button>
+                    <button class="show-pop skin-background" data-popup = ".secondpopup">show second popup</button>
+                    </div>
+                    <!-- start error message -->
+                    <div class="error-message">This Is Error Message Try Again In Another Time</div>
+                    <div class="success-message">Good , Very Successful !!!</div>
+                    <!-- end error message -->
+                    <div class="btn-effects">
+                        <button class="btn-effect to-left">
+                            <span>From Left</span>
+                        </button>
+                        <button class="btn-effect to-top">
+                            <span>From Top</span>
+                        </button>
+                        <button class="btn-effect border-left">
+                            <span>From border-left</span>
+                        </button>
+                        <button class="btn-effect border-top">
+                            <span>From border-top</span>
+                        </button>
+                    </div>
+                    <button class="bounce bounce-one">Bounce Once</button>
+                    <button class="bounce bounce-two">Bounce Twice</button>
+                </div>
+                <div id= "about" class="sec">
+                    <h2 class="skin-color">About</h2>
+                    <div class="animated-progress progress-blue">
+                        <span  data-progress = "70"></span>
+                    </div>
+                    <div class="animated-progress progress-red">
+                        <span  data-progress = "50"></span>
+                    </div>
+                    <div class="animated-progress progress-green">
+                        <span  data-progress = "30"></span>
+                    </div>
+                    <div class="animated-progress progress-purple">
+                        <span  data-progress = "90"></span>
+                    </div>
+                </div>
+                <div id = "services" class="sec skin-background">
+                    <h2>Services</h2>
+                </div>
+                <div id="solutions" class="sec skin-background">
+                    <h2>Solutions</h2>
+                </div>
+                <div id="contact" class="sec skin-background">
+                    <h2>Contact Us</h2>
+                </div>
+                <div id="blog" class="sec skin-background"> 
+                    <h2>Blog</h2>
+                </div>
+                <!-- end sections -->
+                <!-- start scroll to top -->
+                <a class="scroll-to-top" href="#"></a>
+                <!-- end scroll to top -->
+                <!-- start pop up -->
+                <div class="popup firstpopup">
+                    <div class="inner">
+                        <h2>this is 1st popup</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <button class="close">close</button>
+                    </div>
+                </div>
+                <div class="popup secondpopup">
+                    <div class="inner">
+                        <h2>this is 2st popup</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <button class="close">close</button>
+                    </div>
+                </div>
+                
+                <!-- end pop up -->
+
+                <!-- start gallery -->
+                <section class="gal">
+                    <div class="gallery">
+                        <div class="master-img">
+                            <i class="skin-background fa fa-chevron-right fa-lg"></i>
+                            <i class="skin-background fa fa-chevron-left fa-lg"></i>
+                            <img src="images/image1.jpg" alt="">
+                        </div>
+                        <div class="thumbnails">
+                            <img class="selected" src="images/image1.jpg" alt="">
+                            <img src="images/image2.jpg" alt="">
+                            <img src="images/image3.jpg" alt="">
+                            <img src="images/image4.jpg" alt="">
+                            <img src="images/image5.jpg" alt="">
+                        </div>
+                    </div>
+                </section>
+                <!-- end gallery -->
+                <!-- start products -->
+                <section class="prod">
+                <div class="products">
+                    <div class="product">
+                        <h3>product one</h3>
+                        <span class="date">25 / 4 / 2017</span>
+                        <img src="http://placehold.it/100/100" alt="">
+                        <i class="fa fa-plus fa-lg"></i>
+                        <p class="desc">this is test description</p>
+                    </div>
+                    <div class="product">
+                        <h3>product two</h3>
+                        <span class="date">10 / 10 / 2020</span>
+                        <img src="http://placehold.it/100/100" alt="">
+                        <i class="fa fa-plus fa-lg"></i>
+                        <p class="desc">this is test description</p>
+                    </div>
+                </div>
+                <div class="view-options">
+                    <i class="fa fa-list fa-fw fa-2x active" data-class="list-view"></i>
+                    <i class="fa fa-th-large fa-fw fa-2x" data-class="grid-view"></i>
+                </div>
+                <div class="items list-view">
+                    <div class="item">
+                        <h3>item one</h3>
+                        <span class="date">25 / 4 / 2017</span>
+                        <img src="http://placehold.it/100/ddd/000" alt="">
+                        <i class="fa fa-plus fa-lg"></i>
+                        <p class="desc">this is test description</p>
+                    </div>
+                    <div class="item">
+                        <h3>item two</h3>
+                        <span class="date">10 / 10 / 2020</span>
+                        <img src="http://placehold.it/100/ddd/000" alt="">
+                        <i class="fa fa-plus fa-lg"></i>
+                        <p class="desc">this is test description</p>
+                    </div>
+                </div>
+            </section>
+                <!-- end products -->
+                <!-- start form -->
+                <div class="our-form">
+                    <form action="">
+                        <div>
+                        <input class="detect-unicode" type="text" placeholder="Type Your Name" required>
+                        <span class="the_message">please fill the field</span>
+                        <div class="unicode"></div>
+                        </div>
+                        <div>
+                        <input class="auto-direction" type="email"  data-place="اكتب ايميلك هنا" placeholder="Type Your Email Here">
+                        <span class="the_message">please fill the field</span>
+                        </div>
+                        <div>
+                        <input type="password" placeholder="Type Your Password" required>
+                        <span class="the_message">please fill the field</span>
+                        </div>
+                        <div>
+                        <textarea placeholder="Type Your Message"></textarea>
+                        <span class="the_message">please fill the field</span>
+                        </div>
+                        <div>
+                            <input class="add-tag" type="text" placeholder="Please Type Tags Then Press [,]">
+                            <div class="tags"></div>
+                        </div>
+                        <div>
+                            <input type="file" name="" id="">
+                        </div>
+                        <input type="submit" value="send">
+                    </form>
+                    <div class="trimmed-text">
+                      <p class="one">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore impedit animi dolorum tempore beatae ullam Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus maiores sequi at, natus rerum deserunt blanditiis optio, quam quidem voluptas fugiat soluta quasi mollitia reprehenderit error nulla accusamus, illo dignissimos.</p>
+                      <p class="two">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore impedit animi dolorum tempore beatae ullam Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus maiores sequi at, natus rerum deserunt blanditiis optio, quam quidem voluptas fugiat soluta quasi mollitia reprehenderit error nulla accusamus, illo dignissimos.</p>
+                      <p class="three">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore impedit animi dolorum tempore beatae ullam Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus maiores sequi at, natus rerum deserunt blanditiis optio, quam quidem voluptas fugiat soluta quasi mollitia reprehenderit error nulla accusamus, illo dignissimos.</p>
+                    </div>
+
+                    <div class="paragraphs">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati tempora sit amet fugit accusamus saepe doloremque molestiae, facilis adipisci non repellat exercitationem nesciunt eligendi, molestias excepturi nam ab ipsa deserunt.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati tempora sit amet fugit accusamus saepe doloremque molestiae, facilis adipisci non repellat exercitationem nesciunt eligendi, molestias excepturi nam ab ipsa deserunt. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi iusto amet ratione quia voluptatem perferendis odit labore hic porro, placeat repudiandae quis tenetur expedita a quod modi sed consequuntur nisi!</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur aspernatur mollitia sit cumque commodi numquam ducimus repudiandae facere, consequatur, quaerat ipsam voluptas, enim veritatis illo perspiciatis expedita. Praesentium, delectus fugit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, natus magni ut quisquam id, minima repudiandae, corrupti deserunt at et harum! Libero, dolorum accusamus a sequi pariatur culpa ut explicabo! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem quasi laborum maxime esse excepturi molestias culpa autem quod eos aspernatur ullam deserunt, in consectetur. Veniam doloremque necessitatibus corporis beatae laborum!</p>
+                    </div>
+                </div>
+                <!-- end form -->
+                <!-- start shuffle cards -->
+                
+                <section class="sec-cards">
+                    <div class="container">
+                        <div class="cards">
+                            <div class="card card-one">Card one</div>
+                            <div class="card card-two">Card two</div>
+                            <div class="card card-three">Card three</div>
+                            <div class="card card-four">Card four</div>
+                            <div class="card card-five">Card five</div>
+                            <div class="card card-six">Card six</div>
+                            <div class="card card-seven">Card seven</div>
+                            <div class="card card-eight">Card eight</div>
+                            <div class="card card-nine">Card nine</div>
+                            <div class="card card-ten">Card ten</div>
+                        </div>
+                    </div>
+                    <!-- end shuffle cards -->
+                    <!-- start blink warning -->
+                    <div class="container">
+                        <h1 class="blink-warning">This Is Warning</h1>
+                    </div>
+                    <!-- end blink warning -->
+                    <!-- start to do list -->
+                    <div class="container">
+                        <div class="todo-list">
+                            <h3>Todo List</h3>
+                            <ul class="todo-tasks">
+                                <li>Finishing Html Course <span class="task-delete">delete</span><span class="task-comp">Complete</span></li>
+                                <li>Learning Css Course <span class="task-delete">delete</span><span class="task-comp">Complete</span></li>
+                                <li>Learning JQuery Course <span class="task-delete">delete</span><span class="task-comp">Complete</span></li>
+                                <li>Applying on JS Course <span class="task-delete">delete</span><span class="task-comp">Complete</span></li>
+                                <li>Calling With My Friend <span class="task-delete">delete</span><span class="task-comp">Complete</span></li>
+                                <li>Having Breakfast <span class="task-delete">delete</span><span class="task-comp">Complete</span></li>
+                            </ul>
+                            <form action="" method="POST" class="todo-add-task">
+                                <input type="text" name="task-input" class="task-input" placeholder="Add New Task">
+                            </form>
+                            <div class="tasks-stats">
+                                <span class="tasks-num">Tasks: <span>0</span></span>
+                                <span class="tasks-completed">Completed: <span>0</span></span>
+                                <span class="tasks-loading">Loading: <span>0</span></span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end to do list -->
+                    <!-- start type writer effects -->
+                    <div class="container">
+                            <p class="typer" data-text = "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga assumenda dolor eius quas alias accusamus a voluptates veritatis? Nostrum quia, suscipit architecto voluptas amet recusandae similique impedit consectetur sint. Sed."></p>
+                    </div>
+                    <!-- end type writer effects -->
+                    <!-- calculate prices -->
+                    <table>
+                        <tr>
+                            <td>Name</td>
+                            <td>Value</td>
+                            <td>Price</td>
+                        </tr>
+                        <tr>
+                            <td>Data One</td>
+                            <td class="item">10 Items</td>
+                            <td class="price">100</td>
+                        </tr>
+                        <tr>
+                            <td>Data Two</td>
+                            <td class="item">5 Items</td>
+                            <td class="price">80</td>
+                        </tr>
+                        <tr>
+                            <td>Data Three</td>
+                            <td class="item">1 Items</td>
+                            <td class="price">20</td>
+                        </tr>
+                        <tr>
+                            <td>Data Four</td>
+                            <td class="item">20 Items</td>
+                            <td class="price">200</td>
+                        </tr>
+                        <tr>
+                            <td>Data Five</td>
+                            <td class="item">2 Items</td>
+                            <td class="price">28</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">Total:</td>
+                            <td class="theTotal"></td>
+                        </tr>
+                    </table>
+                    <!-- start auto change content -->
+                    <div class="container">
+                        <div class="text-ticker">
+                            <h3>Today Notes</h3>
+                            <ul class="ticker-list">
+                                <li class="active">This Is Line Number One Test</li>
+                                <li>This Is Line Number Two Test</li>
+                                <li>This Is Line Number Three Test</li>
+                                <li>This Is Line Number Four Test</li>
+                                <li>This Is Line Number Five Test</li>
+                                <li>This Is Line Number Six Test</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- end auto change content -->
+                    <!-- start dynamic tabs -->
+                    <div class="container">
+                        <span class="switch-tabs">Switch Tabs</span>
+                        <div class="dynamic-tabs">
+                            <ul>
+                                <li class="active" data-content = ".content-one">One</li>
+                                <li data-content = ".content-two">Two</li>
+                                <li data-content = ".content-three">Three</li>
+                                <li data-content = ".content-four">Four</li>
+                                <li data-content=".content-five">Five</li>
+                            </ul>
+                            <div class="content-list">
+                                <div class="content-one">This Is Content Number One</div>
+                                <div class="content-two">This Is Content Number Two</div>
+                                <div class="content-three">This Is Content Number Three</div>
+                                <div class="content-four">This Is Content Number Four</div>
+                                <div class="content-five">This Is Content Number Five</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end dynamic tabs -->
+                    <!-- start email suggest box -->
+                    <div class="container">
+                        <form action="">
+                            <input type="email" name="email" class="email-suggest" autocomplete="off" placeholder="Type Your Email">
+                        </form>
+                    </div>
+                    <!-- end email suggest box -->
+                </section>
+                
+            <script src="./jquery-3.6.0.min.js"></script>
+            <script src="plugins.js"></script>
+</body>
+</html>
